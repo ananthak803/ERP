@@ -57,31 +57,31 @@ nav a{
 }
 
 #academicsIcon{
-    background-image: url(/assets/academics.png);
+    background-image: url(../assets/academics.png);
 }
 
 #feeIcon{
-    background-image: url(/assets/fees.png);
+    background-image: url(../assets/fees.png);
 }
 
 #examIcon{
-    background-image: url(/assets/exam.png);
+    background-image: url(../assets/exam.png);
 }
 
 #placementIcon{
-    background-image: url(/assets/placement.png);
+    background-image: url(../assets/placement.png);
 }
 
 #hostelIcon{
-    background-image: url(/assets/hostel.png);
+    background-image: url(../assets/hostel.png);
 }
 
 #searchIcon{
-    background-image: url(/assets/search.png);
+    background-image: url(../assets/search.png);
 }
 
 #notificationIcon{
-    background-image: url(/assets/bell.png);
+    background-image: url(../assets/bell.png);
 }
 
 nav a:hover{
@@ -115,7 +115,7 @@ main{
     /* border-radius: 15px; */
     margin-left: 30px;
     border: 2px solid black;
-    background-image: url(/assets/profilephoto.png);
+    background-image: url(../assets/profilephoto.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
