@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    color: rgb(236, 226, 226) ;
+}
+
+header{
+    background-image: linear-gradient(to top, #131411, #181916, #1c1d1b, #21221f, #262724);
+    height: 5rem;
+    width: 100%;
+    font-family: inherit;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.navItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* .navItem i{
+    font-size: 32px;
+    align-self: center;
+} */
+
+.headerIcon{
+    height: 30px;
+    width: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navItem span{
+    font-size: 20px;
+}
+
+#academicsIcon{
+    background-image: url(/assets/academics.png);
+}
+
+#feeIcon{
+    background-image: url(/assets/fees.png);
+}
+
+#examIcon{
+    background-image: url(/assets/exam.png);
+}
+
+#placementIcon{
+    background-image: url(/assets/placement.png);
+}
+
+#hostelIcon{
+    background-image: url(/assets/hostel.png);
+}
+
+#searchIcon{
+    background-image: url(/assets/search.png);
+}
+
+#notificationIcon{
+    background-image: url(/assets/bell.png);
+}
+
+nav a:hover{
+    background-color: rgb(94, 97, 94);
+}
+
+
+/* main */
+
+main{
+    box-sizing: border-box;
+    padding: 30px;
+}
+/* stuedent details */
+
+.studentDetails{
+    /* background-color: #49e829d7; */
+    background-image: linear-gradient(to top, #131411, #181916, #1c1d1b, #21221f, #262724);
+    display: flex;
+    height: 20rem;
+    width: 100%;
+    border-radius: 15px;
+    align-items: center;
+    /* border: 2px solid black; */
+}
+
+#studentPhoto{
+    height:16em;
+    width: 250px;
+    /* background-color: red; */
+    /* border-radius: 15px; */
+    margin-left: 30px;
+    border: 2px solid black;
+    background-image: url(/assets/profilephoto.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+#changePhoto{
+    height: 15%;
+    width: 100%;
+    background-color: #383938d7;
+    position: relative;
+    top:85%;
+    display: none;
+    /* position: relative; */
+    /* border-radius: 15px; */
+    font-size: 30px;
+    text-align: center;
+}
+
+#studentPhoto:hover{
+    #changePhoto{
+        display:block;
+    }
+}
+
+
+.detailContainer{
+    height:16em;
+    width:80%;
+    /* border: 2px solid black; */
+    margin: 0 30px;
+    /* border-radius: 15px; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 20px;
+    /* justify-content: space-around; */
+    flex-grow: 1;
+}
+
+.detailBox{
+    font-size: 25px;
+}
+
+.othersContainer{
+    display: flex;
+    height: auto;
+    width: 100%;
+    /* border: 3px solid hsla(110, 42%, 48%, 0.843); */
+    margin: 30px 0;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+
+.otherBox{
+    display: flex;
+    flex-direction: column;
+    height: 15em;
+    width: 24%;
+    /* background-color: red; */
+    border: 3px solid #646262;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+.otherHead{
+    height: 18%;
+    width: 100%;
+    /* background-color:#49e829d7; */
+    background-image: linear-gradient(to top, #131411, #181916, #1c1d1b, #21221f, #262724);
+    font-size: larger;
+    /* text-align: center; */
+    box-sizing: border-box;
+    padding: 5px 10px;
+    z-index: -1;
+}
+
+.otherContent{
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    color: black ;
+}

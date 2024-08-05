@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: #222320;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+header{
+    background-image: linear-gradient(to top, #131411, #181916, #1c1d1b, #21221f, #262724);
+    height: 5rem;
+    width: 100%;
+    font-family: inherit;
+}
+
+header nav{
+    display: flex;
+    justify-content:  space-between;
+    margin: 0 15x;
+    height: 100%;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    height: inherit;
+}
+
+nav a:hover{
+    background-color: rgb(94, 97, 94);
+}
+
+.navItem{
+    height: 100%;
+    width: auto;
+    margin: 0 20px;
+    display: flex;
+    flex-direction: columns;
+    justify-content: center;
+    align-items: center;
+}
+
+/* #menuBar{
+    background-image: url(/assets/menu.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 60px;
+    width: 60px;
+} */
+
+
+main{
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 50px 70px;
+}
+
+.container{
+    height: 100vh;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.container a{
+    text-decoration: none;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    height: 13rem;
+    width: 13rem ;
+    margin: 10px;
+    background-image: linear-gradient(to top, #131411, #181916, #1c1d1b, #21221f, #262724);
+    border-radius: 500px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid  white;
+
+}
+
+.item span{
+    font-size: 18px;
+    margin-top: 10px;
+    color: white;
+}
+
+.itemIcon{
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    background-size: contain;
+}
+
+.item:hover{
+    border: 2px solid rgb(0, 0, 0);
+}
+
+#feeSubmission{
+    background-image: url(/assets/feeSubmission.png);
+}
+
+#transactionHistory{
+    background-image: url(/assets/transactionHistory.png);
+}
+
+#feeReciept{
+    background-image: url(/assets/feeReciept.png);
+}
+
+#feeInstallment{
+    background-image: url(/assets/feeInstallment.png);
+}

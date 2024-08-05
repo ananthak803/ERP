@@ -1,0 +1,71 @@
+header{
+    /* background-color: #49e829d7; */
+    background-image: linear-gradient(to top, #131411, #181916, #1c1d1b, #21221f, #262724);
+    height: 5rem;
+    width: 100%;
+    font-family: inherit;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.navItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    flex-wrap: wrap;
+}
+.headerIcon{
+    height: 30px;
+    width: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navItem span{
+    font-size: 20px;
+}
+
+#academicsIcon{
+    background-image: url(/assets/academics.png);
+}
+
+#feeIcon{
+    background-image: url(/assets/fees.png);
+}
+
+#examIcon{
+    background-image: url(/assets/exam.png);
+}
+
+#placementIcon{
+    background-image: url(/assets/placement.png);
+}
+
+#hostelIcon{
+    background-image: url(/assets/hostel.png);
+}
+
+#searchIcon{
+    background-image: url(/assets/search.png);
+}
+
+#notificationIcon{
+    background-image: url(/assets/bell.png);
+}
+
+nav a:hover{
+    background-color: rgb(94, 97, 94);
+}
